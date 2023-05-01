@@ -2,9 +2,13 @@
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
+    "baseUrl": "./src",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./*"]
     },
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "sourceMap": true,
     // "outDir": "./",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
